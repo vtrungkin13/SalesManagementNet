@@ -1,0 +1,65 @@
+# Build output
+**/bin/
+**/obj/
+
+# Visual Studio / VS Code
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / JetBrains
+.idea/
+*.DotSettings.user
+
+# .NET generated files
+*.dll
+*.exe
+*.pdb
+*.cache
+*.nupkg
+
+# Test results
+TestResults/
+*.trx
+coverage/
+
+# Logs
+*.log
+logs/
+
+# Local configuration / secrets
+**/appsettings.Development.json
+**/appsettings.Local.json
+*.env
+.env
+.env.*
+!.env.example
+
+# Database files / local data
+*.mdf
+*.ldf
+*.db
+*.sqlite
+*.sqlite3
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+~$*
+
+# NuGet
+packages/
+
+# EF Core local artifacts
+*.DesignTime.dll
+
+# PalmBridge / local tooling
+.graft/
