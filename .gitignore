@@ -61,5 +61,9 @@ packages/
 # EF Core local artifacts
 *.DesignTime.dll
 
+# Root project documentation (local planning/specification)
+/project-specification.md
+/dotnet-implementation-plan.md
+
 # PalmBridge / local tooling
 .graft/
